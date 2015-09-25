@@ -3,7 +3,7 @@
 #-------------------------------------------------------------------------------
 
 # Set up ownership for /usr/local to anyone with admin permissions!
-mkdir -p /usr/local
+sudo mkdir -p /usr/local
 sudo chgrp -R admin /usr/local
 sudo chmod -R g+w /usr/local
 

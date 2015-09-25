@@ -15,6 +15,7 @@ ssh-add ~/.ssh/id_rsa
 public_key=$(cat ~/.ssh/id_rsa.pub)
 
 # Upload to github
+echo ""
 echo "Uploading ssh key to GitHub..."
 
 curl https://api.github.com/user/keys \
